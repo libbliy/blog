@@ -10,7 +10,7 @@
     
     <title>
         
-            B站免流教程 | 
+            ldd，objdump与patchelf | 
         
         hello world
     </title>
@@ -58,7 +58,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="B站免流教程 | hello world">
+    <meta property="og:title" content="ldd，objdump与patchelf | hello world">
     <meta property="og:description" content="null">
     
 
@@ -247,7 +247,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#材料："><span class="post-toc-number">1.</span> <span class="post-toc-text">材料：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#过程："><span class="post-toc-number">2.</span> <span class="post-toc-text">过程：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#讨论："><span class="post-toc-number">3.</span> <span class="post-toc-text">讨论：</span></a></li></ol>
+        
 
         <!--
         <li class="mdl-menu__item">
@@ -284,7 +284,7 @@
         
     
             <p class="article-headline-p">
-                B站免流教程
+                ldd，objdump与patchelf
             </p>
         </div>
 
@@ -303,7 +303,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>libbly</strong>
-        <span>5月 27, 2017</span>
+        <span>5月 30, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -343,7 +343,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=B站免流教程&url=http://yoursite.com//2017/05/27/B站免流教程/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=ldd，objdump与patchelf&url=http://yoursite.com//2017/05/30/ldd，objdump与patchelf/index.html&pic=&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -352,7 +352,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=B站免流教程&url=http://yoursite.com//2017/05/27/B站免流教程/index.html&via=libbly" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=ldd，objdump与patchelf&url=http://yoursite.com//2017/05/30/ldd，objdump与patchelf/index.html&via=libbly" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -361,7 +361,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com//2017/05/27/B站免流教程/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com//2017/05/30/ldd，objdump与patchelf/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -370,7 +370,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com//2017/05/27/B站免流教程/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com//2017/05/30/ldd，objdump与patchelf/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Google+
             </li>
@@ -394,16 +394,23 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>【转载】震惊！b站免流居然不用买手机卡！<br>众所周知，哔哩哔哩弹幕网（以下简称“B站”）最近推出了一系列免流套餐，然而这些都需要你去额外办一张手机卡（与联通合作），但是最近有大神（@EdwKen ）发了一个免流数据库，只要是联通的手机卡并且你是root后的Android手机，理论上就一定可以实现B站免流</p>
-<h2 id="材料："><a href="#材料：" class="headerlink" title="材料："></a>材料：</h2><p>ROOT后的安卓手机一只（最好支持联通4G，当然如果你愿意抱着联通2/3G用那我也没话说）</p>
-<p>联通手机卡一张（只要是联通的即可，什么大小天王卡、大小V卡等等都可以，但是不能欠费或停机）</p>
-<h2 id="过程："><a href="#过程：" class="headerlink" title="过程："></a>过程：</h2><p>1.首先下载免流数据库文件：直链下载（备用下载）<strong>tan90°</strong></p>
-<p>2.在你的手机上打开RE文件管理器（没有的到这里下载）<strong>tan90°</strong></p>
-<p>3.将免流文件覆盖到该目录“/data/data/tv.danmaku.bili/databases”，替换原文件。</p>
-<p>4.重启哔哩哔哩客户端，查看免流量服务，并观看视频，以确认免流服务是否开启。</p>
-<h2 id="讨论："><a href="#讨论：" class="headerlink" title="讨论："></a>讨论：</h2><p>问题来了，这个是怎么实现的呢？</p>
-<p>我们都知道，哔哩哔哩开通免流后可以替换成别的卡继续免流（但必须也是联通卡），其原因是开通免流时，数据库文件被修改，而替换手机卡则不会将其改回去，然而并不是每个人都可以借到别人的手机卡来开通免流服务的，于是就有了这个数据库文件——别人开通好后将其文件备份出来，然后我们在将其覆盖到自己的手机里，以实现免流量服务“激活成功”。然而只希望分享这个文件的人的手机号别销掉，不然我们可就又要去找新的数据库了😂。</p>
-<p>PS：根据原作者的说法，如果有人免流激活失败，需要将自动生成的权限由66改为777。</p>
+        <p>浅谈ldd，objdump与patchelf。</p>
+<blockquote>
+<p><strong>ldd</strong></p>
+</blockquote>
+<p>ldd可以查看依赖库</p>
+<p><em>示例</em>：查看elvish链接库<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">~ ldd ../usr/bin/elvish</div><div class="line">libdl.so</div><div class="line">libc.so</div></pre></td></tr></table></figure></p>
+<p><em>第一列：程序需要依赖什么库
+</em>第二列: 系统提供的与程序需要的库所对应的库<br>*第三列：库加载的开始地址</p>
+<blockquote>
+<p><em>原理</em>：原理： ldd不是个可执行程式，而只是个shell脚本； ldd显示可执行模块的dependency的工作原理，其实质是通过ld-linux.so（elf动态库的装载器）来实现的。ld-linux.so模块会先于executable模块程�作，并获得控制权，因此当上述的那些环境变量被设置时，ld-linux.so选择了显示可执行模块的dependency。</p>
+<p><strong>objdump</strong></p>
+</blockquote>
+<p>-p 显示库<br>-f 显示文件头信息<br>-D 反汇编所有section (-d反汇编特定section)<br>-h 显示目标文件各个section的头部摘要信息<br>-x 显示所有可用的头信息，包括符号表、重定位入口。-x 等价于 -a -f -h -r -t 同时指定。<br>-i 显示对于 -b 或者 -m 选项可用的架构和目标格式列表。<br>-r 显示文件的重定位入口。如果和-d或者-D一起使用，重定位部分以反汇编后的格式显示出来。<br>-R 显示文件的动态重定位入口，仅仅对于动态目标文件有意义，比如某些共享库。<br>-S 尽可能反汇编出源代码，尤其当编译的时候指定了-g这种调试参数时，效果比较明显。隐含了-d参数。<br>-t 显示文件的符号表入口。类似于nm -s提供的信息</p>
+<blockquote>
+<p><strong>patchelf</strong></p>
+</blockquote>
+<p>patchelf的能力是修改binary file的elf信息</p>
 
     
 
@@ -425,8 +432,8 @@
         <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
-        this.page.url = 'http://yoursite.com/2017/05/27/B站免流教程/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://yoursite.com/2017/05/27/B站免流教程/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'http://yoursite.com/2017/05/30/ldd，objdump与patchelf/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://yoursite.com/2017/05/30/ldd，objdump与patchelf/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
     queue.offer(function() {
             (function() { // DON'T EDIT BELOW THIS LINE
@@ -457,21 +464,13 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/05/29/琉璃神社食用方法/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2017/05/27/aria2配置示例/" id="post_nav-older" class="next-content">
+        <a href="/2017/05/29/琉璃神社食用方法/" id="post_nav-older" class="next-content">
             旧篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
